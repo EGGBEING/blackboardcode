@@ -1,0 +1,281 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    color: white;
+    background: #00703c;
+    border-color: #79ae42;
+    border-width: 4px;
+    border-bottom-style: solid;
+    height: 100px;
+}
+
+.subHeader {
+    background-color: #79ae42;
+    color: white;
+    text-align: center;
+}
+
+.subHeader a {
+    text-decoration: none;
+}
+
+.subHeader a:hover {
+    color: orange;
+}
+
+header img {
+    max-height: 80px;
+    width: auto;
+    padding: 10px;
+    padding-left: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: inherit;
+    max-width: 80%;
+    margin: auto;
+}
+
+.content {
+    padding: 1em;
+    background-color: #f6f5f4;
+    margin: 0.5em;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e4e4e0;
+    overflow: auto;
+}
+
+.content h2 {
+    margin: 0;
+    padding-bottom: 0.4em;
+    padding-left: 0.4em;
+    color: #c4c4c4;
+}
+
+#month {
+    margin: 0;
+    padding-bottom: 0.4em;
+    padding-left: 1.6em;
+}
+
+nav .section {
+    background-color: #f6f5f4;
+    margin: 0.5em;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e4e4e0;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: #79ae42;
+}
+
+.section a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+.section a:hover {
+    color:#79ae42
+}
+
+.section a h2 {
+    margin: 0;
+    padding: 0.2em;
+}
+
+.proficon {
+    width: 170px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.proficondiv {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+#calendar {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    padding: 4px;
+    min-width: 900px;
+    overflow: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    
+}
+
+#days {
+    background-color: #cacaca;
+    display: grid;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 4px;
+    grid-template-columns: 14fr 14fr 14fr 14fr 14fr 14fr 14fr ;
+    column-gap: 1em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #bdbaba;
+}
+
+#days h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 14fr 14fr 14fr 14fr 14fr 14fr 14fr;
+    margin: 4px;
+    column-gap: 1em;
+    height: 70px;
+    position: relative;
+}
+
+.day {
+    text-align: center;
+    background-color: #cacaca;
+    border-radius: 15px;
+    padding: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #bdbdbd;
+}
+
+.day h3 {
+    margin: 0;
+    
+}
+
+.events {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 1em;
+    
+}
+
+.column  {
+    text-align: center;
+}
+
+.option {
+    margin: auto;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #cacaca;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 6px;
+    width: 80%;
+}
+
+.option textarea {
+    background-color: #bdbdbd;
+    border-radius: 15px;
+    overflow: auto;
+    word-wrap: normal;
+    width: 50%;
+    margin: auto;
+}
+
+.option button {
+    width: 25%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+#contactInfo {
+    margin-top: 0;
+}
+
+#userName {
+    margin: 0;
+}
+
+.messageBox {
+    background-color: #e0e0e0;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 15px;
+    border-color: #cacaca;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.message {
+    background-color: #cacaca;
+    width: 80%;
+    margin: auto;
+    padding: 16px;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+.sender {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#composeMessageButton {
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.heroImage {
+    height: 300px;
+    padding: 0;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -1em;
+    margin-bottom: 1em ;
+}
+
+.heroImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
